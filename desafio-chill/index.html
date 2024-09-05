@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chillhop Sleep Cycle 😴 [Sleep Beats / Sleep Music]</title>
+    
+    <style>
+        *{
+            margin: 0px
+        }
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 320px;
+            line-height: 25px;
+        }
+
+        .imagem-topo{
+            max-width: 100%;
+            height: auto;
+        }
+        
+        h1{
+            font-size:medium;
+        }
+
+        p{
+            font-weight:lighter;
+            font-size: small;
+        }
+
+        .playlist-container{
+            background-color: #151515;
+            color: white;
+            width: 300px;
+            height: 150px;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .track{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .track:hover{
+            color: #a0a0a0;
+        }
+
+        .texto{
+            background-color: #2E2E2E;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .services-container{
+            background-color: #f7f7f7;  
+            width: 300px;
+            padding: 20px 0px 20px 20px;
+        }
+
+        .players{
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #d0d0d0;
+        }
+
+
+        .logotipo{
+            display: flex;
+            align-items: center;
+        }
+
+        .logotipo img{
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            padding-bottom: 10px;
+        }
+
+        .nome-player{
+            font-weight: bold;
+            font-size: medium;
+            padding-right: 50px;
+        }
+
+        .botao{
+            background-color: #ffffff;
+            width: auto;
+            color: rgb(39, 39, 39);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        #texto-botao{
+            font-weight: bold;
+            font-size: 15px
+        }
+
+        .botao:hover{
+            background-color: rgb(0, 128, 255);
+            color: white;
+        }
+
+        #chilhop{
+            min-width: 60%;
+            height: auto;
+        }
+
+    </style>
+    
+
+</head>
+<body>
+        <header>
+            <img src="imagens/topo.webp"  class="imagem-topo">
+        </header>
+
+        <div class="playlist-container">
+
+            <div class="track">
+                <span>Way Away</span>
+                <span>02:48</span>
+            </div>
+
+            <div class="track">
+                <span>Blankets</span>
+                <span>03:34</span>
+            </div>
+
+            <div class="track">
+                <span>Tumble’s Lullaby</span>
+                <span>03:33</span>
+            </div>
+
+            <div class="track">
+                <span>Lost</span>
+                <span>01:59</span>
+            </div>
+
+            <div class="track">
+                <span>Driftwood</span>
+                <span>02:04</span>
+            </div>
+
+            <div class="track">
+                <span>We Let Go</span>
+                <span>02:35</span>
+            </div>
+        </div>
+        
+
+        <div class="texto">
+            <h1>Chillhop Sleep Cycle 😴 [Sleep Beats / Sleep Music]</h1>
+            <p>Press play and be gently guided into the soothing depths of your dreams. Close your eyes and chill.</p>
+        </div>
+
+        <div class="services-container">
+
+            <div class="players">
+                <div class="logotipo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" alt="">
+                    <span class="nome-player">Spotify</span>
+                    <button class="botao"><span id="texto-botao">Reproduzir</span></button>
+                </div>
+            </div>
+
+            <div class="players">
+                <div class="logotipo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Apple_Music_icon.svg" alt="Apple" alt="">
+                    <span class="nome-player">Apple</span>
+                    <button class="botao"><span id="texto-botao">Reproduzir</span></button>
+                </div>
+            </div>
+
+            <div class="players">
+                <div class="logotipo">
+                    <img src="imagens/b999b572-829b-4972-99ce-47315a1032b9.webp" id="chilhop" alt="">
+                    <button class="botao"><span id="texto-botao">Reproduzir</span></button>
+                </div>
+            </div>
+
+            <div class="players">
+                <div class="logotipo">
+                    <img src="imagens/oculos.webp" id="chilhop" alt="">
+                    <button class="botao"><span id="texto-botao">Reproduzir</span></button>
+                </div>
+            </div>
+
+
+            </div>
+
+
+        </div>
+    
+</body>
+</html>
