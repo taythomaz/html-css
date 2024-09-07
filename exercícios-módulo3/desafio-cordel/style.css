@@ -56,7 +56,7 @@ section{
 
 #img-02{
     background-image: url(imagens/maxresdefault.jpg);
-    height: 50vh;
+    max-height: 50vh;
     background-position:cente center;
     background-repeat: no-repeat;
     background-size: cover;
