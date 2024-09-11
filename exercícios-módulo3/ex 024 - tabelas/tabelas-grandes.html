@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 900px;
+            height: 300px;
+            border-collapse: collapse;
+
+        }
+
+        thead{
+            background-color: aqua;
+        }
+
+
+        td,th{
+            border: solid 1px black;
+            padding: 10px;
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Total de Startups cadastradas</h1>
+    <!--
+        HIERARQUIA DE TABELAS GRANDES
+        TABLE
+            THEAD
+                tr, td, th
+            TBODY
+                tr, td, th
+            TFOOT
+                tr, td, th
+    -->
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Ano</th>
+                <th>São Paulo</th>
+                <th>Minas Gerais</th>
+                <th>Rio Grande do Sul</th>
+                <th>Rio de Janeiro</th>
+                <th>Brasil</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2015</td>
+                <td>1.320</td>
+                <td>365</td>
+                <td>183</td>
+                <td>343</td>
+                <td>4.451</td>
+            </tr>
+
+            <tr>
+                <td>2016</td>
+                <td>1.327</td>
+                <td>676</td>
+                <td>434</td>
+                <td>776</td>
+                <td>2.789</td>
+            </tr>
+
+            <tr>
+                <td>2017</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2018</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th>Soma</th>
+            <th>Total 1</th>
+            <th>Total 2</th>
+            <th>Total 3</th>
+            <th>Total 4</th>
+            <th>Total 5</th>
+        </tfoot>
+
+
+    </table>
+
+
+</body>
+</html>
