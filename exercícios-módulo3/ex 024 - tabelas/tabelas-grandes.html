@@ -10,14 +10,31 @@
         }
 
         table{
-            width: 900px;
-            height: 300px;
+            max-width: 900px;
             border-collapse: collapse;
+            position: relative;
+        }
+        
+        tbody > tr:nth-child(2n) {background-color: rgb(227, 227, 227);
 
         }
 
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;  
+        }
+
+        th{
+            background-color: rgb(99, 99, 99);
+            color: aliceblue;
+        }
+
+
         thead{
             background-color: aqua;
+            position: sticky; 
+            top: -1px;
         }
 
 
@@ -32,27 +49,32 @@
 </head>
 
 <body>
-    <h1>Total de Startups cadastradas</h1>
+    <h1>Tabelas grandes</h1>
     <!--
         HIERARQUIA DE TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 tr, td, th
             TBODY
                 tr, td, th
             TFOOT
                 tr, td, th
+
+            STICKER NO THEAD PARA FIXAR AS INFOS AO ROLAR A TELA
     -->
+
     
     <table>
+        <caption>Total de Startups cadastradas</caption>
         <thead>
             <tr>
-                <th>Ano</th>
-                <th>São Paulo</th>
-                <th>Minas Gerais</th>
-                <th>Rio Grande do Sul</th>
-                <th>Rio de Janeiro</th>
-                <th>Brasil</th>
+                <th scope="col">Ano</th>
+                <th scope="col">São Paulo</th>
+                <th scope="col">Minas Gerais</th>
+                <th scope="col" style="width:150px;">Rio Grande do Sul</th>
+                <th scope="col">Rio de Janeiro</th>
+                <th scope="col">Brasil</th>
             </tr>
         </thead>
 
@@ -101,10 +123,144 @@
                 <td>334</td>
                 <td>342</td>
             </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+                        <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>4.878</td>
+                <td>654</td>
+                <td>098</td>
+                <td>334</td>
+                <td>342</td>
+            </tr>
         </tbody>
 
         <tfoot>
-            <th>Soma</th>
+            <th scope="row">Soma</th>
             <th>Total 1</th>
             <th>Total 2</th>
             <th>Total 3</th>
