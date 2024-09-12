@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <!--
+        usando a tag required, o preenchimento do campo se torna obrigatório
+        a tag placeholder apresenta um exemplo do campo a ser preenchido
+    -->
+
+    <h1>Criando caixas de texto e de senha</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usuario" id="iusu" required placeholder="seu nome de usuário">
+        </p>
+
+        <p>
+            <label for="ipass">Senha: </label>
+            <input type="password" name="senha" id="ipass" required placeholder="sua senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
