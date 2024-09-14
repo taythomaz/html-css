@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms com telefone e email</title>
+</head>
+<body>
+    <h1>Forms com telefone e email</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="telefone" id="itel">
+            </p>
+            
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
